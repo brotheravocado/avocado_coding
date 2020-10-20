@@ -36,7 +36,7 @@ int main(int argc, char *argv[]){
 			printf("%5d",m2[i][j]);	
 		}printf("\n");
 	}
-	printf("-----------maxtrix1 + matrix2----------\n");
+	printf("-------maxtrix1 + matrix2-------\n");
 	for(i = 0; i < row; i++){
 		for(j = 0; j < col; j++){
 			printf("%5d",m1[i][j]+m2[i][j]);	
@@ -44,4 +44,6 @@ int main(int argc, char *argv[]){
 	}
 	return 0;
 	
+	free(m1);
+	free(m2);
 }
