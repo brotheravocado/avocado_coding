@@ -302,7 +302,7 @@ public class CarFrag extends Fragment {
                         //접속
                         URLConnection conn = url.openConnection();
                         //요청헤더 추가
-                        conn.setRequestProperty("Authorization", "KakaoAK 7ce78d3c36644e24fc44fdc6afa0f7f2");
+                        conn.setRequestProperty("Authorization", "해시키");
 
                         //서버와 연결되어 있는 스트림을 추출한다.
                         InputStream is = conn.getInputStream();
